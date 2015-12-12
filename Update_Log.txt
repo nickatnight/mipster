@@ -1,0 +1,8 @@
+** v1.2 **
+----------
+
+- validation check
+- changed background to black
+- branch instruction added
+- store word instruction added
+- x86 instruction support

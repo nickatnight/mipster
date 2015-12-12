@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+      <link rel="stylesheet" href="mips.css">
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+      <div id="heady">
+          <strong><h3>MIPSter</h3></strong>
+          <div class="options">
+              <input id="mips" type="radio" name="process" checked />MIPs
+              <input id="x86" type="radio" name="process" />x86
+          </div>
+          <b>Assembly Code:</b>
+          <br />
+          <textarea id="asmCode" name="asmCode" rows="10" cols="20">
+          </textarea>
+          <button class="myButton" type="button" id="instr">Assemble</button>
+      </div>
+      <hr>
+      <div id="results" align="center">
+      </div>
+      <script src="mips.js"></script>
+    </body>
+</html>
+
